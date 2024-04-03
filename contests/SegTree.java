@@ -1,9 +1,9 @@
 import java.util.*;
 
-class STree {
+class SgTree {
     int[] seg;
 
-    STree(int n) {
+    SgTree(int n) {
         this.seg = new int[4 * n + 1];
     }
 
