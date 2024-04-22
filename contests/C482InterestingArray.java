@@ -18,7 +18,7 @@ public class C482InterestingArray {
             queries[q][2] = Integer.parseInt(query.nextToken());
         }
 
-        int arr[] = new int[arrLen];
+        int arr[] = new int[arrLen]; usha
         for (int bitPos = 0; bitPos < 32; bitPos++) {
             int prefixArr[] = new int[arrLen];
             int bitMask = (1 << bitPos);
